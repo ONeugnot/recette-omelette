@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --toto: #F3E5D7;
+    --foo: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--toto);
+    display: flex;
+    padding: 13rem 30rem;
+    justify-content: center;
+    align-items: center;    
+    height: 100;
+    font-family: "space-grotesk", sans-serif;;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.image {
+    position: relative;
+    border-radius: 20px;
+}
+
+h1{
+    display: flex;
+    background-color: white ;
+}   
+
+.minute{
+    font-family: "Outfit", sans-serif;
+    background-color: #FFF7FB;
+    padding: 2rem;
+}
+
+li::marker {
+    color: #7A284E;
+  }
+
+.temps{
+    color: #7A284E;
+    font-family: "Outfit", sans-serif;;
+}
+
+.ingredient{
+    padding: 2rem;
+}
+
+.nom {
+    color: #854632;
+}
+
+.beige::marker {
+    color: #854632;
+}
+
+.Instruction{
+    padding: 2rem;
+}
+
+.Nom{
+    color: #854632;
+}
+
+.beige2::marker {
+    color: #854632;
+}
+
+span{
+    font-weight: 600;
+}
